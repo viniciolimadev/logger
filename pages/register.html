@@ -1,23 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrar</title>
     <link rel="stylesheet" href="../styles/form.css">
-</head>
-<body>
+    <title>Cadastrar</title>
+  </head>
+  <body>
     <form>
-        <div>
-            <input type="text" class="inputs" id="name" placeholder="Nome" required>
-            <input type="text" class="inputs" id="userRegister" placeholder="Usuario" required>
-            <input type="password" class="inputs" id="passwordRegister" placeholder="Senha" required>
-        </div>
-        <button type="button" id="register">Registrar</button>
-        <div class="smalls">          
-            <small>Já cadastro ? Entre <a href="./login.html">aqui.</a></small>      
-        </div>
+      <div class="inputs">
+        <input type="text" id="name" placeholder="Nome" required>
+        <input type="text" id="userRegister" placeholder="Usuário" required>
+        <input type="password" id="passwordRegister" placeholder="Senha" required>
+      </div>
+      <button type="button" id="register">Cadastrar</button>
+      <div class="smalls">
+        <small>Já possui cadastro? Entre <a href="./login.html">aqui</a>.</small>
+      </div>
     </form>
     <script src="../scripts/register.js"></script>
-</body>
+  </body>
 </html>

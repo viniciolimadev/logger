@@ -18,40 +18,40 @@ body {
   align-items: center;
 }
 
-form{
-    width: 400px;
+form {
+  width: 400px;
 }
 
-form .inputs{
-    display: block;
-    margin-bottom: 20px;
-    height: 50px;
-    padding: 10;
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    border: .25px solid #ccc;
-    border-radius: 5px;
+form .inputs input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  border: .25px solid #CCC;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
+
 form button {
-    width: 100%;
-    height: 50px;
-    border: .25px solid #ccc;
-    border-radius: 5px;
-    background-color: #00F;
-    color: #FFF;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 10px 0;
-    transition: 0.15s;
+  width: 100%;
+  height: 50px;
+  border: .25px solid #CCC;
+  border-radius: 5px;
+  background-color: #00F;
+  color: #FFF;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: .15s;
 }
 
-form button:hover{
-    background-color: #007;
+form button:hover {
+  background-color: #007;
 }
 
-form .smalls small{
-    display: block;
-    margin: 5px 0;
-    font-size: 16px;
+form .smalls small {
+  display: block;
+  margin: 5px 0;
+  font-size: 16px;
 }
